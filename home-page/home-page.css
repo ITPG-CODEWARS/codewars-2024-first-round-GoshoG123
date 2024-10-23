@@ -100,12 +100,17 @@ span:hover {
   cursor: default;
 }
 
+.home {
+  height: 1px;
+}
+
 .three-trains{
-  height: 1000px;
+  height: 830px;
+  background: #272c36;
 }
 
 .heading {
-  margin-top: 420px;
+  margin-top: 500px;
   text-align: center;
   font-weight: bold;
   font-size: 3rem;
@@ -116,12 +121,13 @@ span:hover {
   font-size: 1.7rem;
   margin-top: 30px;
   margin-bottom: 15px;
+  color: rgb(191, 79, 79);
 }
 
 .train-img1 {
   height: 45vh;
   margin-left: 30px;
-  border: 2px solid #f50b0b;
+  border: 3px solid #f50b0b;
   border-radius: 10%;  
 }
 
@@ -134,58 +140,92 @@ span:hover {
 .btn1 {
   display: inline-block;
   padding: 10px 20px;
-  background: #0ef;
+  background: rgb(191, 79, 79);
   border-radius: 40px;
-  box-shadow: 0 0 10px #0ef;
+  box-shadow: 0 0 10px rgb(191, 79, 79);
   font-size: 18px;
-  color: #1f242d;
+  color: #000000;
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 799;
-  margin-left: 155px;
+  margin-left: 150px;
   margin-top: 18px;
   cursor: pointer;
 }
 
 .train-heading2 {
-  margin-left: 100vh;
+  margin-left: 91.5vh;
   margin-top: -78.5vh;
   font-size: 1.7rem;
+  color: rgb(57, 49, 210);
 }
 
 .train-img2 {
   height: 45vh;
-  margin-left: 78.5vh;
+  margin-left: 72vh;
   margin-top: 1.8vh;
-  border: 2px solid #2107c6;
+  border: 3px solid #2107c6;
   border-radius: 10%;  
 }
 
 .train-description2 {
   font-size: 18px;
   margin-top: 15px;
-  margin-left: 77vh;
+  margin-left: 72vh;
 }
 
 .btn2 {
   display: inline-block;
   padding: 10px 20px;
-  background: #0ef;
+  background: rgb(57, 49, 210);
   border-radius: 40px;
-  box-shadow: 0 0 10px #0ef;
+  box-shadow: 0 0 10px rgb(57, 49, 210);
   font-size: 18px;
-  color: #1f242d;
+  color: #000000;
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 799;
-  margin-left: 96vh;;
+  margin-left: 90vh;;
   margin-top: 18px;
   cursor: pointer;
 }
 
+.train-heading3 {
+  margin-left: 161.5vh;
+  margin-top: -78.5vh;
+  font-size: 1.7rem;
+  color: #cac9cd;
+}
 
+.train-img3 {
+  height: 45vh;
+  margin-left: 143.5vh;
+  margin-top: 1.6vh;
+  border: 3px solid #bbbac0;
+  border-radius: 10%;  
+}
 
+.train-description3 {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 143vh;
+}
 
+.btn3 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #bbbac0;
+  border-radius: 40px;
+  box-shadow: 0 0 10px #bbbac0;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 799;
+  margin-left: 160vh;;
+  margin-top: 18px;
+  cursor: pointer;
+}
 
 
 
