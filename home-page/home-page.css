@@ -15,10 +15,9 @@ body{
     color: #fff;
 }
 
-/* ::-webkit-scrollbar {
-    display: none;
-} */
-
+::-webkit-scrollbar {
+  display: none;
+} 
 .header{
   position: fixed;
   top: 0;
@@ -208,7 +207,7 @@ span:hover {
 .train-description3 {
   font-size: 18px;
   margin-top: 15px;
-  margin-left: 143vh;
+  margin-left: 142vh;
 }
 
 .btn3 {
