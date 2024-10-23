@@ -227,7 +227,25 @@ span:hover {
   cursor: pointer;
 }
 
+.main-button {
+  height: 180px;
+}
 
+.main-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0ef;
+  border-radius: 40px;
+  box-shadow: 0 0 10px #0ef;
+  font-size: 30px;
+  color: #04002c;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 799;
+  margin-left: 85.5vh;;
+  margin-top: 7vh;
+  cursor: pointer;
+}
 
 
 
