@@ -94,7 +94,7 @@ body{
 .btn1 {
   display: inline-block;
   padding: 10px 20px;
-  background: rgb(42, 212, 26);;
+  background: rgb(42, 212, 26);
   border-radius: 40px;
   box-shadow: 0 0 10px rgb(42, 212, 26);
   font-size: 18px;
@@ -155,7 +155,7 @@ body{
 .train-img3 {
   height: 45vh;
   margin-left: 141vh;
-  border: 3px solid rgb(255, 247, 0);;
+  border: 3px solid rgb(255, 247, 0);
   border-radius: 10%;
 }
 
@@ -170,7 +170,7 @@ body{
   padding: 10px 20px;
   background: rgb(255, 247, 0);
   border-radius: 40px;
-  box-shadow: 0 0 10px rgb(255, 247, 0);;
+  box-shadow: 0 0 10px rgb(255, 247, 0);
   font-size: 18px;
   color: #000000;
   letter-spacing: 1px;
@@ -181,11 +181,118 @@ body{
   position: relative;
 }
 
+.train-heading4 {
+  margin-left: 24.5vh;
+  font-size: 2.25rem;
+  margin-top: 17vh;
+  margin-bottom: 15px;
+  color: rgb(142, 46, 56);
+}
 
+.train-img4 {
+  height: 45vh;
+  margin-left: 30px;
+  border: 3px solid rgb(142, 46, 56);
+  border-radius: 10%;  
+}
 
+.train-description4 {
+  margin-left: 30px;
+  margin-top: 15px;
+  font-size: 1.25rem;
+}
 
+.btn4 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgb(142, 46, 56);
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(142, 46, 56);
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 799;
+  margin-left: 20vh;
+  margin-top: 25px;
+  position: relative;
+}
 
+.train-heading5 {
+  margin-left: 98.5vh;
+  font-size: 2.25rem;
+  margin-top: -85.5vh;
+  margin-bottom: 15px;
+  color: rgb(184, 111, 8);
+}
 
+.train-img5 {
+  height: 45vh;
+  margin-left: 78vh;
+  margin-top: -0.5vh;
+  border: 3px solid rgb(184, 111, 8);
+  border-radius: 10%;
+}
+
+.train-description5 {
+  margin-left: 79vh;
+  margin-top: 1.6vh;
+  font-size: 1.25rem;
+}
+
+.btn5 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgb(184, 111, 8);
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(184, 111, 8);
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 799;
+  margin-left: 92vh;
+  margin-top: 2.8vh;
+  position: relative;
+}
+
+.train-heading6 {
+  margin-left: 160vh;
+  font-size: 2rem;
+  margin-top: -85vh;
+  margin-bottom: 15px;
+  color: rgb(159, 16, 99);
+}
+
+.train-img6 {
+  height: 45vh;
+  margin-left: 141vh;
+  margin-top: 0.2vh;
+  border: 3px solid rgb(159, 16, 99);
+  border-radius: 10%;
+}
+
+.train-description6 {
+  margin-left: 140.5vh;
+  margin-top: 2vh;
+  font-size: 1.25rem;
+}
+
+.btn6 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgb(159, 16, 99);
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(159, 16, 99);
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 799;
+  margin-left: 160vh;
+  margin-top: 2.8vh;
+  position: relative;
+}
 
 
 
