@@ -62,3 +62,177 @@ body{
 .navbar a.active{
   color: #0ef;
 }
+
+.heading {
+  margin-top: 12.5vh;
+  text-align: center;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.train-heading1 {
+  margin-left: 17.5vh;
+  font-size: 2rem;
+  margin-top: 4vh;
+  margin-bottom: 15px;
+  color: rgb(42, 212, 26);
+}
+
+.train-img1 {
+  height: 45vh;
+  margin-left: 30px;
+  border: 3px solid rgb(42, 212, 26);
+  border-radius: 10%;  
+}
+
+.train-description1 {
+  margin-left: 30px;
+  margin-top: 15px;
+  font-size: 1.25rem;
+}
+
+.btn1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgb(42, 212, 26);;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(42, 212, 26);
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 799;
+  margin-left: 15vh;
+  margin-top: 25px;
+  position: relative;
+}
+
+.train-heading2 {
+  margin-left: 86.5vh;
+  font-size: 2rem;
+  margin-top: -89vh;
+  margin-bottom: 15px;
+  color: rgb(18, 229, 244);
+}
+
+.train-img2 {
+  height: 45vh;
+  margin-left: 67vh;
+  border: 3px solid rgb(18, 229, 244);
+  border-radius: 10%;
+}
+
+.train-description2 {
+  margin-left: 68vh;
+  margin-top: 2vh;
+  font-size: 1.25rem;
+}
+
+.btn2 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgb(18, 229, 244);
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(18, 229, 244);
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 799;
+  margin-left: 88vh;
+  margin-top: 2.8vh;
+  position: relative;
+}
+
+.train-heading3 {
+  margin-left: 160vh;
+  font-size: 2rem;
+  margin-top: -89vh;
+  margin-bottom: 15px;
+  color: rgb(255, 247, 0);
+}
+
+.train-img3 {
+  height: 45vh;
+  margin-left: 141vh;
+  border: 3px solid rgb(255, 247, 0);;
+  border-radius: 10%;
+}
+
+.train-description3 {
+  margin-left: 142.5vh;
+  margin-top: 2vh;
+  font-size: 1.25rem;
+}
+
+.btn3 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgb(255, 247, 0);
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(255, 247, 0);;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 799;
+  margin-left: 161.5vh;
+  margin-top: 2.8vh;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideRight{
+  0% {
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes slideTop{
+  0% {
+      transform: translateY(100px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
