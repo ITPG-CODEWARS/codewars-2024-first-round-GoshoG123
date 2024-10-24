@@ -147,9 +147,9 @@ span:hover {
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 799;
-  margin-left: 150px;
-  margin-top: 18px;
-  cursor: pointer;
+  margin-left: 9%;
+  margin-top: 25px;
+  position: relative;
 }
 
 .train-heading2 {
@@ -184,9 +184,9 @@ span:hover {
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 799;
-  margin-left: 90vh;;
-  margin-top: 18px;
-  cursor: pointer;
+  margin-left: 43.5%;
+  margin-top: 23.5px;
+  position: relative;
 }
 
 .train-heading3 {
@@ -206,7 +206,7 @@ span:hover {
 
 .train-description3 {
   font-size: 18px;
-  margin-top: 15px;
+  margin-top: 12.5px;
   margin-left: 142vh;
 }
 
@@ -221,9 +221,9 @@ span:hover {
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 799;
-  margin-left: 160vh;;
+  margin-left: 76.5%;;
   margin-top: 18px;
-  cursor: pointer;
+  position: relative;
 }
 
 .main-button {
@@ -245,9 +245,6 @@ span:hover {
   margin-top: 7vh;
   cursor: pointer;
 }
-
-
-
 
 
 
