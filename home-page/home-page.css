@@ -41,14 +41,19 @@ span:hover {
   cursor: default;
 }
 
-.logo{
-  font-size: 50px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
+
+.logo {
+  width: 150px;
+  max-width: 200%;
+  margin-left: 10px;
+  margin-top: -0.5vh;
+  margin-bottom: -0.5vh;
+  transition: 0.4s ease-out;
+}
+
+.logo:hover {
+  width: 155px;
   cursor: pointer;
-  opacity: 0;
-  animation: slideRight 1.5s ease forwards;
 }
 
 .navbar a{
@@ -245,6 +250,9 @@ span:hover {
   margin-top: 7vh;
   cursor: pointer;
 }
+
+
+
 
 
 
