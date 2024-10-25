@@ -38,7 +38,7 @@ body{
   text-decoration: none;
   font-weight: 600;
   cursor: pointer;
-  opacity: 0;
+  opacity: 1;
   animation: slideRight 1.5s ease forwards;
 }
 
@@ -50,7 +50,7 @@ body{
   font-weight: 600;
   margin-left: 35px;
   transition: .5s;
-  opacity: 0;
+  opacity: 1;
   animation: slideTop 1s ease forwards;
   animation-delay: calc(.2s * var(--i));
 }
@@ -323,7 +323,7 @@ body{
 
 
 
-@keyframes slideRight{
+/* @keyframes slideRight{
   0% {
       transform: translateX(-100px);
       opacity: 0;
@@ -343,4 +343,4 @@ body{
       transform: translateY(0);
       opacity: 1;
   }
-}
+} */
