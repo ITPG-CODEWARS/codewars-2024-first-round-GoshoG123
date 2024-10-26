@@ -13,6 +13,7 @@ html{
 body{
     background: #1f242d;
     color: #fff;
+    overflow: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -70,7 +71,6 @@ body{
 }
 
 .contact{
-  height: 500px;
   background-color: #1f242d;
   margin-top: -80vh;
   margin-left: 30vh;
