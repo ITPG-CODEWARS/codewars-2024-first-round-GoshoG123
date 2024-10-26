@@ -32,18 +32,15 @@ body{
 }
 
 span {
+  margin-left: 7.5vh;
   color: #0ef;
-  text-shadow: 0 0 2px #0ef, 0 0 3px #0ef;
-  transition: text-shadow 0.5s ease;
+
 }
-span:hover {
-  text-shadow: 0 0 5px #0ef, 0 0 10px #0ef;
-  cursor: default;
-}
+
 
 
 .logo {
-  width: 150px;
+  width: 130px;
   max-width: 200%;
   margin-left: 10px;
   margin-top: -0.5vh;
@@ -52,7 +49,7 @@ span:hover {
 }
 
 .logo:hover {
-  width: 155px;
+  width: 135px;
   cursor: pointer;
 }
 
@@ -79,7 +76,7 @@ span:hover {
 
 .home-img {
   padding-bottom: 45px;
-  margin-top: -398px;
+  margin-top: -52vh;
   height: 88vh;
   z-index: 1;
   float: right;
@@ -92,15 +89,15 @@ span:hover {
   color: #fff;
   text-decoration: none;
   font-weight: 799;
-  margin-top: 410px;
+  margin-top: 40vh;
   padding-left: 130px;
   transition: text-shadow 0.5s ease;
   z-index: 2;
-  text-shadow: 0 0 2px #fff, 0 0 3px #fff;
+  text-shadow: 0 0 2.5px #fff, 0 0 3.5px #0ef;;
 }
 
 .motto:hover {
-  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #0ef;
   cursor: default;
 }
 
@@ -114,10 +111,10 @@ span:hover {
 }
 
 .heading {
-  margin-top: 500px;
+  margin-top: 70vh;
   text-align: center;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .train-heading1 {

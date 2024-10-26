@@ -19,6 +19,20 @@ body{
     display: none;
 }
 
+.logo {
+  width: 130px;
+  max-width: 200%;
+  margin-left: 10px;
+  margin-top: -0.5vh;
+  margin-bottom: -0.5vh;
+  transition: 0.4s ease-out;
+}
+
+.logo:hover {
+  width: 135px;
+  cursor: pointer;
+}
+
 .header{
   position: fixed;
   top: 0;
@@ -32,15 +46,7 @@ body{
   z-index: 100;
 }
 
-.logo{
-  font-size: 50px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  cursor: pointer;
-  opacity: 1;
-  animation: slideRight .5s ease forwards;
-}
+
 
 .navbar a{
   display: inline-block;
