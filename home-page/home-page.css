@@ -76,7 +76,7 @@ span {
 
 .home-img {
   padding-bottom: 45px;
-  margin-top: -52vh;
+  margin-top: -34.5vh;
   height: 88vh;
   z-index: 1;
   float: right;
@@ -89,11 +89,16 @@ span {
   color: #fff;
   text-decoration: none;
   font-weight: 799;
-  margin-top: 40vh;
-  padding-left: 130px;
+  margin-top: 22.5vh;
+  margin-left: 14vh;
   transition: text-shadow 0.5s ease;
   z-index: 2;
   text-shadow: 0 0 2.5px #fff, 0 0 3.5px #0ef;;
+}
+
+.home-img2 {
+  margin-left: 20vh;
+  margin-top: 4vh;
 }
 
 .motto:hover {
@@ -102,7 +107,7 @@ span {
 }
 
 .home {
-  height: 1px;
+  height: 20vh;
 }
 
 .three-trains{
