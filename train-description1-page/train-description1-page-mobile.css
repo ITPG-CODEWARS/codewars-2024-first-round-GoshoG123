@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@media only screen and (max-width:720px) {
+
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
 * {
     margin: 0;
@@ -30,60 +32,67 @@ body{
   align-items: center;
   z-index: 100;
 }
+
+
 .logo {
-  width: 130px;
-  max-width: 200%;
-  margin-left: 10px;
-  margin-top: -0.5vh;
-  margin-bottom: -0.5vh;
-  transition: 0.4s ease-out;
+    width: 100px;
+    margin-left: -3vh;
+    margin-top: 0.5vh;
+    margin-bottom: -0.5vh;
+    transition: 0.4s ease-out;
+    animation: slideRight 1s ease forwards;
+    opacity: 1;
+  }
+
+  .logo:hover {
+    width: 83px;
+    cursor: pointer;
+  }
+.navbar {
+    display: flex;
+    margin-right: -3vh;
 }
-
-.logo:hover {
-  width: 135px;
-  cursor: pointer;
-}
-
-
+ 
 .navbar a{
   display: inline-block;
-  font-size: 24px;
+  font-size: 15px;
   color: #fff;
   text-decoration: none;
   font-weight: 600;
-  margin-left: 35px;
   transition: .5s;
+  margin-left: 15px;
   opacity: 1;
   animation: slideTop 1s ease forwards;
   animation-delay: calc(.2s * var(--i));
 }
 
 .navbar a:hover{
-  color: rgb(189, 187, 187);
-}
+    color: rgb(189, 187, 187);
+  }
 
 .navbar a.active{
   color: #0ef;
 }
 
 .heading {
-    font-size: 3.25rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    margin-left: 80vh;
-    margin-top: 14vh;
+    margin-left: 3vh;
+    margin-top: 15vh;
     color: rgb(191, 79, 79);
 }
 
 
 
 .desc{
-    margin-left: 100vh;
-    margin-top: 5vh;
-    font-size: 1.25rem;
+    margin-left: 1.5vh;
+    margin-top: 43vh;
+    font-size: .8rem;
+    margin-bottom: -6vh;
 }
 
 .button {
-  height: 32vh;
+  height: 20vh;
   background: #191d25;
   margin-top: 11vh;
 }
@@ -94,25 +103,25 @@ body{
     background: #0ef;
     border-radius: 40px;
     box-shadow: 0 0 15px #0ef;
-    font-size: 30px;
+    font-size: 26px;
     color: #04002c;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 799;
-    margin-left: 80vh;
-    margin-top: 12vh;
-    margin-bottom: 12vh;
+    margin-left: .5vh;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
     cursor: pointer;
 }
 
 
 .carousel {
   position: absolute;
-  max-width: 80vh;
+  max-width: 49vh;
   margin: auto;
   overflow: hidden;
-  margin-left: 8vh;
-  margin-top: 5vh;
+  margin-left: 0vh;
+  margin-top: 3.5vh;
 }
 
 .carousel-container {
@@ -170,3 +179,14 @@ button {
 
 
 
+
+
+
+
+
+
+
+
+
+
+}
