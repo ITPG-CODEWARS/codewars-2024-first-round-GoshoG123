@@ -70,7 +70,7 @@ body{
     font-size: 3.25rem;
     font-weight: bold;
     margin-left: 80vh;
-    margin-top: 16vh;
+    margin-top: 14vh;
     color: rgb(191, 79, 79);
 }
 
@@ -84,7 +84,7 @@ body{
 
 .desc{
     margin-left: 100vh;
-    margin-top: -61vh;
+    margin-top: 5vh;
     font-size: 1.25rem;
 }
 
@@ -112,6 +112,50 @@ body{
 }
 
 
+.carousel {
+  position: absolute;
+  max-width: 80vh;
+  margin: auto;
+  overflow: hidden;
+  margin-left: 8vh;
+  margin-top: 5vh;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-image {
+  min-width: 100%;
+  opacity: 0;
+  transition: opacity 1s ease;
+  border: .5vh solid #e91717;
+  border-radius: 10%;  
+}
+
+.carousel-image.active {
+  opacity: 1;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(0, 238, 255);
+  border: none;
+  cursor: pointer;
+  padding: 1.25vh;
+  border-radius: 30%;
+}
+
+.prev {
+  left: 1.25vh;
+}
+
+.next {
+  right: 1.25vh;
+}
 
 
 
