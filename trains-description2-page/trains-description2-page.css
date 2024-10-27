@@ -72,7 +72,7 @@ body{
   font-weight: bold;
   margin-left: 80vh;
   margin-top: 14vh;
-  color: rgb(42, 212, 26);
+  color: rgb(18, 229, 244);
 }
 
 
@@ -125,7 +125,7 @@ transition: transform 0.5s ease;
 min-width: 100%;
 opacity: 0;
 transition: opacity 1s ease;
-border: .5vh solid rgb(42, 212, 26);
+border: .5vh solid rgb(18, 229, 244);
 border-radius: 10%;  
 }
 
@@ -137,7 +137,7 @@ button {
 position: absolute;
 top: 50%;
 transform: translateY(-50%);
-background-color: rgb(42, 212, 26);
+background-color: rgb(18, 229, 244);
 border: none;
 cursor: pointer;
 padding: 1.25vh;
