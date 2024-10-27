@@ -136,7 +136,7 @@ button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgb(0, 238, 255);
+  background-color: rgb(123, 20, 20);
   border: none;
   cursor: pointer;
   padding: 1.25vh;
