@@ -18,6 +18,12 @@ body{
 ::-webkit-scrollbar {
   display: none;
 } 
+
+span {
+  margin-left: 7.5vh;
+  color: #0ef;
+}
+
 .header{
   position: fixed;
   top: 0;
@@ -31,11 +37,7 @@ body{
   z-index: 100;
 }
 
-span {
-  margin-left: 7.5vh;
-  color: #0ef;
 
-}
 
 
 
@@ -46,6 +48,7 @@ span {
   margin-top: -0.5vh;
   margin-bottom: -0.5vh;
   transition: 0.4s ease-out;
+  animation: slideRight 1s ease forwards;
 }
 
 .logo:hover {
@@ -93,7 +96,7 @@ span {
   margin-left: 14vh;
   transition: text-shadow 0.5s ease;
   z-index: 2;
-  text-shadow: 0 0 2.5px #fff, 0 0 3.5px #0ef;;
+  text-shadow: 0 0 2.5px #fff, 0 0 3.5px #0ef;
 }
 
 .home-img2 {
@@ -106,156 +109,410 @@ span {
   cursor: default;
 }
 
+
 .home {
-  height: 20vh;
+    height: 20vh;
 }
 
-.three-trains{
-  height: 830px;
-  background: #272c36;
+.three-trains {
+    height: 830px;
+    background: #272c36;
 }
 
 .heading {
-  margin-top: 70vh;
-  text-align: center;
-  font-weight: bold;
-  font-size: 4rem;
+    margin-top: 70vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
 }
 
 .train-heading1 {
-  margin-left: 165px;
-  font-size: 1.7rem;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  color: rgb(191, 79, 79);
+    margin-left: 165px;
+    font-size: 1.7rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: rgb(191, 79, 79);
 }
 
 .train-img1 {
-  height: 45vh;
-  margin-left: 30px;
-  border: 3px solid #f50b0b;
-  border-radius: 10%;  
+    height: 45vh;
+    margin-left: 30px;
+    border: 3px solid #f50b0b;
+    border-radius: 10%;
 }
 
 .train-description1 {
-  margin-left: 30px;
-  margin-top: 15px;
-  font-size: 18px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 18px;
 }
 
 .btn1 {
-  display: inline-block;
-  padding: 10px 20px;
-  background: rgb(191, 79, 79);
-  border-radius: 40px;
-  box-shadow: 0 0 10px rgb(191, 79, 79);
-  font-size: 18px;
-  color: #000000;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-weight: 799;
-  margin-left: 9%;
-  margin-top: 25px;
-  position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(191, 79, 79);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(191, 79, 79);
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 799;
+    margin-left: 9%;
+    margin-top: 25px;
+    position: relative;
 }
 
 .train-heading2 {
-  margin-left: 91.5vh;
-  margin-top: -78.5vh;
-  font-size: 1.7rem;
-  color: rgb(57, 49, 210);
+    margin-left: 91.5vh;
+    margin-top: -78.5vh;
+    font-size: 1.7rem;
+    color: rgb(57, 49, 210);
 }
 
 .train-img2 {
-  height: 45vh;
-  margin-left: 72vh;
-  margin-top: 1.8vh;
-  border: 3px solid #2107c6;
-  border-radius: 10%;  
+    height: 45vh;
+    margin-left: 72vh;
+    margin-top: 1.8vh;
+    border: 3px solid #2107c6;
+    border-radius: 10%;
 }
 
 .train-description2 {
-  font-size: 18px;
-  margin-top: 15px;
-  margin-left: 72vh;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 72vh;
 }
 
 .btn2 {
-  display: inline-block;
-  padding: 10px 20px;
-  background: rgb(57, 49, 210);
-  border-radius: 40px;
-  box-shadow: 0 0 10px rgb(57, 49, 210);
-  font-size: 18px;
-  color: #000000;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-weight: 799;
-  margin-left: 43.5%;
-  margin-top: 23.5px;
-  position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(57, 49, 210);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(57, 49, 210);
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 799;
+    margin-left: 43.5%;
+    margin-top: 23.5px;
+    position: relative;
 }
 
 .train-heading3 {
-  margin-left: 161.5vh;
-  margin-top: -78.5vh;
-  font-size: 1.7rem;
-  color: #570779;
+    margin-left: 161.5vh;
+    margin-top: -78.5vh;
+    font-size: 1.7rem;
+    color: #570779;
 }
 
 .train-img3 {
-  height: 45vh;
-  margin-left: 143.5vh;
-  margin-top: 1.6vh;
-  border: 3px solid #570779;
-  border-radius: 10%;  
+    height: 45vh;
+    margin-left: 143.5vh;
+    margin-top: 1.6vh;
+    border: 3px solid #570779;
+    border-radius: 10%;
 }
 
 .train-description3 {
-  font-size: 18px;
-  margin-top: 12.5px;
-  margin-left: 142vh;
+    font-size: 18px;
+    margin-top: 12.5px;
+    margin-left: 142vh;
 }
 
 .btn3 {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #570779;
-  border-radius: 40px;
-  box-shadow: 0 0 10px #570779;
-  font-size: 18px;
-  color: #000000;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-weight: 799;
-  margin-left: 76.5%;;
-  margin-top: 18px;
-  position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #570779;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #570779;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 799;
+    margin-left: 76.5%;
+    margin-top: 18px;
+    position: relative;
 }
 
 .main-button {
-  height: 180px;
+    height: 180px;
 }
 
 .main-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #0ef;
-  border-radius: 40px;
-  box-shadow: 0 0 10px #0ef;
-  font-size: 30px;
-  color: #04002c;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-weight: 799;
-  margin-left: 85.5vh;;
-  margin-top: 7vh;
-  cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0ef;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 30px;
+    color: #04002c;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 799;
+    margin-left: 85.5vh;
+    margin-top: 7vh;
+    cursor: pointer;
 }
 
 
 
 
+@media (max-width: 768px) {
+
+    
+  .navbar {
+      flex-direction: row; /* Ensure items are in a row */
+      justify-content: flex-start; /* Align items to the left */
+      padding: 5px; /* Add padding for better spacing */
+  }
+
+  .logo {
+      width: 15vh;
+      margin-left: -2vh;
+  }
+
+  .navbar a {
+      font-size: 1.4rem; /* Adjust font size for smaller screens */
+      margin-right: 4vh;
+       
+  }
+
+  .motto {
+      font-size: 7vw;
+      margin-top: 18vh;
+      margin-left: 12vh;
+  }
+  span {
+      margin-left: 3.5vh; 
+  }
+  .home-img {
+      max-height: 60vh;
+      margin-top: 4vh;
+      margin-right: -.5vh;   
+  }
+
+ .heading{
+  margin-left: -10vh;
+ }
+
+  .train-heading1, .train-heading2, .train-heading3 {
+      font-size: 2rem; /* Smaller font size for tablets */
+  }
+
+  .btn1, .btn2, .btn3, .main-btn {
+      font-size: 1rem; /* Smaller button font size */
+  }
+
+  .train-heading1 {
+      margin-left: 25vh;
+  }
+  .train-img1 {
+      margin-left: 14vh;
+  }
+  .train-description1 {
+      margin-left: 14vh;
+  }
+  .btn1 {
+      margin-left: 28vh;
+  }
+
+  .three-trains{
+      height: 300vh;
+      width: 105vw;
+  }
+  .home-img2{
+      display:none;
+  }
+
+  .train-heading2 {
+      margin-left: 25vh;
+      margin-top: 12vh;
+  }
+  .train-img2 {
+      margin-left: 13vh;
+      margin-top: 2vh;
+  }
+  .train-description2 {
+      margin-left: 13vh;
+  }
+  .btn2 {
+      margin-left: 28vh;
+      margin-top: 3vh;
+  }
+
+
+  .train-heading3 {
+      margin-left: 27vh;
+      margin-top: 12vh;
+  }
+  .train-img3 {
+      margin-left: 14vh;
+      margin-top: 2vh;
+  }
+  .train-description3 {
+      margin-left: 12vh;
+  }
+  .btn3 {
+      margin-left: 27vh;
+      margin-top: 3vh;
+  }
+
+  .three-trains{
+      height: 232.5vh;
+      width: 110%;
+  }
+  .home-img2{
+      display:none;
+  }
+
+  .main-button {
+      height: 10vh;
+  }
+  .main-btn {
+      margin-left: 25vh;
+      margin-top: 3vh;
+      width: 25vh;
+      height: 5vh;
+      font-size: 1.3rem;
+      text-align: center;
+  }
+
+
+  .train-img1, .train-img2, .train-img3 {
+      max-height: 35vh; /* Limit max height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+      flex-direction: row; /* Ensure items are in a row */
+      justify-content: flex-start; /* Align items to the left */
+      padding: 10px; /* Add padding for better spacing */
+      margin-right: 5vh;
+  }
+
+  .logo {
+      width: 15vh;
+      margin-left: -2vh;
+  }
+
+  .navbar a {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+       margin-left: 20px;
+  }
+
+  .motto {
+      font-size: 8vw;
+      margin-top: 20vh;
+      margin-left: 8vh;
+  }
+  span {
+      margin-left: 3.5vh; 
+  }
+  .home-img {
+      max-height: 58vh;
+      margin-top: 7vh;
+      margin-right: -11vh;   
+  }
+
+ .heading{
+  margin-left: -4vh;
+  font-size: 2.5rem;
+ }
+
+  .train-heading1, .train-heading2, .train-heading3 {
+      font-size: 1.6rem; /* Smaller font size for tablets */
+  }
+
+  .btn1, .btn2, .btn3, .main-btn {
+      font-size: 1rem; /* Smaller button font size */
+  }
+
+  .train-heading1 {
+      margin-left: 18vh;
+  }
+  .train-img1 {
+      margin-left: 8vh;
+  }
+  .train-description1 {
+      margin-left: 7.5vh;
+      font-size: .9rem;
+  }
+  .btn1 {
+      margin-left: 18vh;
+  }
+
+  .three-trains{
+      height: 300vh;
+      width: 105vw;
+  }
+  .home-img2{
+      display:none;
+  }
+
+  .train-heading2 {
+      margin-left: 20vh;
+      margin-top: 12vh;
+  }
+  .train-img2 {
+      margin-left: 8vh;
+      margin-top: 2vh;
+  }
+  .train-description2 {
+      margin-left: 6vh;
+      font-size: .9rem;
+  }
+  .btn2 {
+      margin-left: 20vh;
+      margin-top: 3vh;
+  }
+
+
+  .train-heading3 {
+      margin-left: 20vh;
+      margin-top: 12vh;
+  }
+  .train-img3 {
+      margin-left: 9vh;
+      margin-top: 2vh;
+  }
+  .train-description3 {
+      margin-left: 5vh;
+      font-size: .9rem;
+  }
+  .btn3 {
+      margin-left: 20vh;
+      margin-top: 3vh;
+  }
+
+  .three-trains{
+      height: 240vh;
+      width: 110%;
+  }
+  .home-img2{
+      display:none;
+  }
+
+  .main-button {
+      height: 15vh;
+  }
+  .main-btn {
+      margin-left: 21.5vh;
+      margin-top: 3vh;
+      width: 25vh;
+      height: 10vh;
+      font-size: 1.5rem;
+      text-align: center;
+  }
+
+
+  .train-img1, .train-img2, .train-img3 {
+      max-height: 35vh; /* Limit max height for smaller screens */
+  }
+}
 
 
 
