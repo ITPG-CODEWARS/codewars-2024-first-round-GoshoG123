@@ -26,6 +26,7 @@ body{
   margin-top: -0.5vh;
   margin-bottom: -0.5vh;
   transition: 0.4s ease-out;
+  opacity: 1;
 }
 
 .logo:hover {
@@ -301,51 +302,3 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @keyframes slideRight{
-  0% {
-      transform: translateX(-100px);
-      opacity: 0;
-  }
-  100% {
-      transform: translateX(0);
-      opacity: 1;
-  }
-}
-
-@keyframes slideTop{
-  0% {
-      transform: translateY(100px);
-      opacity: 0;
-  }
-  100% {
-      transform: translateY(0);
-      opacity: 1;
-  }
-} */
