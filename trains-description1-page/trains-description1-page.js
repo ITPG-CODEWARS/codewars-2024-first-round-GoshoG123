@@ -4,21 +4,18 @@ function showSlide(index) {
     const slides = document.querySelectorAll('.carousel-image');
     const totalSlides = slides.length;
 
-    // Update current index with wrapping logic
     if (index >= totalSlides) {
-        currentIndex = 0; // Loop back to the first image
+        currentIndex = 0;
     } else if (index < 0) {
-        currentIndex = totalSlides - 1; // Loop to the last image
+        currentIndex = totalSlides - 1;
     } else {
-        currentIndex = index; // Use the provided index
+        currentIndex = index;
     }
 
-    // Calculate the offset for sliding
-    const offset = -currentIndex * 100; // Move left by 100% of the current index
+    const offset = -currentIndex * 100;
     const carouselContainer = document.querySelector('.carousel-container');
-    carouselContainer.style.transform = `translateX(${offset}%)`; // Apply the sliding effect
+    carouselContainer.style.transform = `translateX(${offset}%)`;
 
-    // Update active class for opacity transition
     slides.forEach((slide, i) => {
         slide.classList.remove('active');
         if (i === currentIndex) {
@@ -27,18 +24,14 @@ function showSlide(index) {
     });
 }
 
-// Change slide function
 function changeSlide(direction) {
     const slides = document.querySelectorAll('.carousel-image');
 
     if (direction === 1) {
-        // When clicking right, increment the index
         showSlide(currentIndex + 1);
     } else {
-        // When clicking left, decrement the index
         showSlide(currentIndex - 1);
     }
 }
 
-// Initialize the carousel
 showSlide(currentIndex);
