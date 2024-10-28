@@ -1,0 +1,193 @@
+@media only screen and (max-width:720px) {
+
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}	
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #1f242d;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+} 
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 10%;
+  background: #191d25;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+
+.logo {
+    width: 100px;
+    margin-left: -3vh;
+    margin-top: 0.5vh;
+    margin-bottom: -0.5vh;
+    transition: 0.4s ease-out;
+    animation: slideRight 1s ease forwards;
+    opacity: 1;
+  }
+
+  .logo:hover {
+    width: 83px;
+    cursor: pointer;
+  }
+.navbar {
+    display: flex;
+    margin-right: -3vh;
+}
+ 
+.navbar a{
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: .5s;
+  margin-left: 15px;
+  opacity: 1;
+  animation: slideTop 1s ease forwards;
+  animation-delay: calc(.2s * var(--i));
+}
+
+.navbar a:hover{
+    color: rgb(189, 187, 187);
+  }
+
+.navbar a.active{
+  color: #0ef;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 1.25vh;
+    margin-top: 15vh;
+    color: rgb(255, 247, 0);
+}
+
+
+
+.desc{
+    margin-left: 1.5vh;
+    margin-top: 40vh;
+    font-size: .8rem;
+    margin-bottom: -6vh;
+    margin-right: 1vh;
+}
+
+.button {
+  height: 20vh;
+  background: #191d25;
+  margin-top: 11vh;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0ef;
+    border-radius: 40px;
+    box-shadow: 0 0 15px #0ef;
+    font-size: 26px;
+    color: #04002c;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 799;
+    margin-left: .5vh;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    cursor: pointer;
+}
+
+
+.carousel {
+  position: absolute;
+  max-width: 49vh;
+  margin: auto;
+  overflow: hidden;
+  margin-left: 0vh;
+  margin-top: 3.5vh;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-image {
+  min-width: 100%;
+  opacity: 0;
+  transition: opacity 1s ease;
+  border: .5vh solid rgb(255, 247, 0);
+  border-radius: 10%;  
+}
+
+.carousel-image.active {
+  opacity: 1;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(255, 247, 0);
+  border: none;
+  cursor: pointer;
+  padding: 1.25vh;
+  border-radius: 30%;
+}
+
+.prev {
+  left: 1.25vh;
+}
+
+.next {
+  right: 1.25vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
