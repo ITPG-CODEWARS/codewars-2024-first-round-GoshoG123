@@ -258,262 +258,37 @@ span {
 }
 
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: .5rem 9%;
+    background: #191d25;
+    position: relative;
+    bottom: -200px;
+    width: 100%;
+    margin-top: -23vh;
+}
 
+.footer-text p {
+    font-size: 1rem;
+}
 
-/* @media (max-width: 600px) {
-  .navbar {
-      flex-direction: row;
-      justify-content: flex-start;
-      padding: 10px;
-      margin-right: 5vh;
-  }
+.footer-iconTop a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: #0ef;
+    border-radius: .8rem;
+    text-decoration: none;
+}
+.footer-iconTop a i{
+    font-size: 1.2rem;
+    color: #272c36;
+}
 
-  .logo {
-      width: 15vh;
-      margin-left: -2vh;
-  }
-
-  .navbar a {
-      font-size: 1rem;
-       margin-left: 20px;
-  }
-
-  .motto {
-      font-size: 8vw;
-      margin-top: 20vh;
-      margin-left: 8vh;
-  }
-  span {
-      margin-left: 3.5vh; 
-  }
-  .home-img {
-      max-height: 58vh;
-      margin-top: 7vh;
-      margin-right: -11vh;   
-  }
-
- .heading{
-  margin-left: -4vh;
-  font-size: 2.5rem;
- }
-
-  .train-heading1, .train-heading2, .train-heading3 {
-      font-size: 1.6rem;
-  }
-
-  .btn1, .btn2, .btn3, .main-btn {
-      font-size: 1rem;
-  }
-
-  .train-heading1 {
-      margin-left: 18vh;
-  }
-  .train-img1 {
-      margin-left: 8vh;
-  }
-  .train-description1 {
-      margin-left: 7.5vh;
-      font-size: .9rem;
-  }
-  .btn1 {
-      margin-left: 18vh;
-  }
-
-  .three-trains{
-      height: 300vh;
-      width: 105vw;
-  }
-  .home-img2{
-      display:none;
-  }
-
-  .train-heading2 {
-      margin-left: 20vh;
-      margin-top: 12vh;
-  }
-  .train-img2 {
-      margin-left: 8vh;
-      margin-top: 2vh;
-  }
-  .train-description2 {
-      margin-left: 6vh;
-      font-size: .9rem;
-  }
-  .btn2 {
-      margin-left: 20vh;
-      margin-top: 3vh;
-  }
-
-
-  .train-heading3 {
-      margin-left: 20vh;
-      margin-top: 12vh;
-  }
-  .train-img3 {
-      margin-left: 9vh;
-      margin-top: 2vh;
-  }
-  .train-description3 {
-      margin-left: 5vh;
-      font-size: .9rem;
-  }
-  .btn3 {
-      margin-left: 20vh;
-      margin-top: 3vh;
-  }
-
-  .three-trains{
-      height: 240vh;
-      width: 110%;
-  }
-  .home-img2{
-      display:none;
-  }
-
-  .main-button {
-      height: 15vh;
-  }
-  .main-btn {
-      margin-left: 21.5vh;
-      margin-top: 3vh;
-      width: 25vh;
-      height: 10vh;
-      font-size: 1.5rem;
-      text-align: center;
-  }
-
-
-  .train-img1, .train-img2, .train-img3 {
-      max-height: 35vh;
-  }
-} */
-
-
-/* @media (min-width: 601px) and (max-width: 1200px) {
-
-    
-    .navbar {
-        flex-direction: row;
-        justify-content: flex-start;
-        padding: 5px;
-    }
-  
-    .logo {
-        width: 15vh;
-        margin-left: -2vh;
-    }
-  
-    .navbar a {
-        font-size: 1.4rem;
-        margin-right: 4vh;
-         
-    }
-  
-    .motto {
-        font-size: 7vw;
-        margin-top: 18vh;
-        margin-left: 14vh;
-    }
-    span {
-        margin-left: 3.5vh; 
-    }
-    .home-img {
-        max-height: 60vh;
-        margin-top: 4vh;
-        margin-right: -3vh;   
-    }
-  
-   .heading{
-    margin-left: -8vh;
-   }
-  
-    .train-heading1, .train-heading2, .train-heading3 {
-        font-size: 2rem;
-    }
-  
-    .btn1, .btn2, .btn3, .main-btn {
-        font-size: 1rem;
-    }
-  
-    .train-heading1 {
-        margin-left: 25vh;
-    }
-    .train-img1 {
-        margin-left: 14vh;
-    }
-    .train-description1 {
-        margin-left: 14vh;
-    }
-    .btn1 {
-        margin-left: 28vh;
-    }
-  
-    .three-trains{
-        height: 300vh;
-        width: 105vw;
-    }
-    .home-img2{
-        display:none;
-    }
-  
-    .train-heading2 {
-        margin-left: 26vh;
-        margin-top: 12vh;
-    }
-    .train-img2 {
-        margin-left: 14vh;
-        margin-top: 2vh;
-    }
-    .train-description2 {
-        margin-left: 14vh;
-    }
-    .btn2 {
-        margin-left: 28vh;
-        margin-top: 3vh;
-    }
-  
-  
-    .train-heading3 {
-        margin-left: 28vh;
-        margin-top: 12vh;
-    }
-    .train-img3 {
-        margin-left: 16vh;
-        margin-top: 2vh;
-    }
-    .train-description3 {
-        margin-left: 14vh;
-    }
-    .btn3 {
-        margin-left: 30vh;
-        margin-top: 3vh;
-    }
-  
-    .three-trains{
-        height: 232.5vh;
-        width: 110%;
-    }
-    .home-img2{
-        display:none;
-    }
-  
-    .main-button {
-        height: 10vh;
-    }
-    .main-btn {
-        margin-left: 28vh;
-        margin-top: 3vh;
-        width: 25vh;
-        height: 5vh;
-        font-size: 1.3rem;
-        text-align: center;
-    }
-  
-  
-    .train-img1, .train-img2, .train-img3 {
-        max-height: 35vh;
-    }
-  } */
 
 
 
