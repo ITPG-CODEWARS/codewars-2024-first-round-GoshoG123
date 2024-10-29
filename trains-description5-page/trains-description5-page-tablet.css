@@ -96,7 +96,7 @@ br {
 
 .desc{
     margin-left: 5vh;
-    margin-top: 60vh;
+    margin-top: 5vh;
     font-size: 1.3rem;
     margin-bottom: -6vh;
     margin-right: 2vh;
@@ -127,7 +127,7 @@ br {
 
 
 .carousel {
-  position: absolute;
+  position: relative;
   max-width: 65vh;
   margin: auto;
   overflow: hidden;
@@ -171,7 +171,38 @@ button {
   right: 1.25vh;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: .5rem 9%;
+  background: #13171d;
+  position: relative;
+  bottom: -200px;
+  width: 100%;
+  margin-top: -20vh;
+}
 
+.footer-text p {
+  font-size: 1.1rem;
+  margin-left: -3vh;
+}
+
+
+.footer-iconTop a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: .8rem;
+  background: #0ef;
+  border-radius: .8rem;
+  text-decoration: none;
+}
+.footer-iconTop a i{
+  font-size: 1.5rem;
+  color: #272c36;
+}
 
 
 }
